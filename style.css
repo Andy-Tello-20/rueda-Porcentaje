@@ -1,0 +1,29 @@
+#circulo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    background: conic-gradient(#3530be 0deg, #e8e4e4 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "x%";
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#porcentaje{
+    color: rgb(108, 48, 190);
+}
